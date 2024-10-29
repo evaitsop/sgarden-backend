@@ -15,7 +15,7 @@ jobs:
           node-version: 16
 
       - name: Build dependencies
-        run: ngm install
+        run: npm install
 
       - name: Run tests
         run: npm run test
